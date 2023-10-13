@@ -1,0 +1,56 @@
+.Header {
+    display: flex;
+    width: 1030px;
+    padding: 32px 0px 8px 0px;
+    justify-content: space-between;
+    background: var(--background, #282C33);
+    margin: 0 auto;
+}
+
+.Logo {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.logo__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.Logo__text {
+    margin-left: 20px;
+    margin-top: 0;
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Project__link {
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Contact__link {
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.About__link {
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
