@@ -12,9 +12,12 @@ function Header() {
             <img className='Logo' src={Logo} alt="" />
             <h4 className='Logo__text'>Muhammadabdulloh</h4>
           </div>
-            <Link className='About__link'>#About</Link>
+          <div className="link__con">
+          <Link className='About__link'>#About</Link>
             <Link className='Contact__link'>#Contact</Link>
             <Link className='Project__link'>#Projects</Link>
+          </div>
+
         </div>
       </div>
 

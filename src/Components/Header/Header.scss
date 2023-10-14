@@ -1,16 +1,17 @@
 .Header {
-    display: flex;
-    width: 1030px;
+    width: 100%;
     padding: 32px 0px 8px 0px;
+    display: flex;
     justify-content: space-between;
     background: var(--background, #282C33);
     margin: 0 auto;
 }
 
 .Logo {
-    width: 16px;
-    height: 16px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
+    margin-left: 20px;
 }
 
 .logo__container {
@@ -23,10 +24,11 @@
     margin-top: 0;
     color: var(--white, #FFF);
     font-family: Fira Code;
-    font-size: 16px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 9px;
 }
 
 .Project__link {
@@ -53,4 +55,32 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-left: 1034px;
+    padding: 25px;
 }
+
+.Contact__link{
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 25px;
+}
+
+.Project__link{
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 25px;
+}
+
+.link__con{
+    margin-top: 20px;
+}
+
+
