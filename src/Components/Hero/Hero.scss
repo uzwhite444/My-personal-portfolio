@@ -202,7 +202,7 @@
     }
 }
 
-.cards{
+.cards {
     display: flex;
     flex-direction: row;
     margin-left: 200px;
@@ -308,4 +308,148 @@
         margin-top: -16px;
         margin-left: 8px;
     }
+}
+
+.about__me {
+    margin-top: 140px;
+    margin-left: 400px;
+    width: 1025px;
+}
+
+.con__about {
+    display: flex;
+    flex-direction: row;
+}
+
+.line__about {
+    background-color: #C778DD;
+    width: 800px;
+    height: 1px;
+    margin-top: 49px;
+    margin-left: 16px;
+}
+
+.about__title {
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.about__text {
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 515px;
+}
+
+.right__img {
+    margin-left: 631px;
+    margin-top: -275px;
+}
+
+.dots__about__2 {
+    margin-left: 312px;
+}
+
+.dots__about__1 {
+    margin-left: 636px;
+}
+
+.line__person2 {
+    width: 271px;
+    height: 1px;
+    flex-shrink: 0;
+    background-color: #C778DD;
+    margin-left: 49px;
+}
+
+.discord__con {
+    display: flex;
+    flex-direction: row;
+}
+
+.email__con {
+    display: flex;
+    flex-direction: row;
+}
+
+.messege__title {
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.messege {
+    display: inline-flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border: 1px solid var(--gray, #ABB2BF);
+    margin-left: 218px;
+    width: 206px;
+    height: 201px;
+    margin-top: 197px;
+
+}
+
+.contact {
+    width: 1023px;
+    margin-left: 200px;
+}
+
+.line__contact {
+    height: 1px;
+    width: 803px;
+    background-color: #C778DD;
+    margin-top: 48px;
+    margin-left: 10px;
+}
+
+.contact__title {
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact__text {
+    width: 505px;
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 153px;
+    margin-left: -855px;
+}
+
+.text__discord {
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text__email {
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
