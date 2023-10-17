@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './Hero.scss'
 import person from "../../img/Person.png"
 import bgimg1 from '../../img/bgimg1.svg'
@@ -106,12 +106,16 @@ function Hero() {
           <div className="messege">
             <h5 className='messege__title'>Message me here</h5>
             <div className="discord__con">
-            <img src={discord} alt="" />
-            <p className='text__discord'>uz__white</p>
+            <Link to={'https://discord.com/'}>            
+              <img src={discord} alt="" />
+              <p className='text__discord'>uz__white</p>
+            </Link>
             </div>
             <div className="email__con">
-            <img src={email} alt="" />
-            <p className='text__email'>nuuuu391@gmail.com</p>
+            <Link to={'https://mail.google.com/'}>            
+              <img src={email} alt="" />
+              <p className='text__email'>nuuuu391@gmail.com</p>
+            </Link>
             </div>
           </div>
           </div>

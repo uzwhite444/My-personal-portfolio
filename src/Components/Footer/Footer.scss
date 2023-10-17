@@ -1,0 +1,75 @@
+.footer__logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.footer {
+    margin-top: 150px;
+    width: 1891px;
+    border: 1px solid #ABB2BF;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.con__logo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 168px;
+}
+
+.logo__text {
+    margin-top: 8px;
+    margin-left: 20px;
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.email__text__logo {
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+    margin-left: 50px;
+}
+
+.text__2 {
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 170px;
+}
+
+.media {
+    margin-left: 1600px;
+    margin-top: -100px;
+}
+
+.media__logo {
+    display: flex;
+    flex-direction: row;
+    margin-left: -4px;
+    margin-top: -21px;
+}
+
+.media__text {
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

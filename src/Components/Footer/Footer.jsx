@@ -1,12 +1,36 @@
 import React from 'react'
 import './Footer.scss'
 import logo from '../../img/Logo.png'
+import figma from '../../img/Figma.svg'
+import discord from '../../img/Discord.svg'
+import github from '../../img/Github.svg'
+import { Link } from 'react-router-dom'
+
 function Footer() {
   return (
-    <div className='Footer'>
+    <div className='footer'>
       <div className="container">
-        <img src={logo} alt="" />
-        <h5>Muhammadabdulloh</h5>
+        <div className="con__logo">
+          <img className='footer__logo' src={logo} alt="" />
+          <h5 className='logo__text'>Muhammadabdulloh</h5>
+          <p className='email__text__logo'>nuuuu391@gmail.com</p>
+        </div>
+        <p className='text__2'>Web designer and front-end developer</p>
+        <div className="media">
+          <h4 className='media__text'>Media</h4>
+          <div className="media__logo">
+            <Link to={'https://github.com/'}>          
+            <img src={github} alt="" />
+            </Link>
+            <Link to={'https://www.figma.com/'}>
+            <img src={figma} alt="" />
+            </Link>
+            <Link to={'https://discord.com/'}>            
+            <img src={discord} alt="" />
+            </Link>
+
+          </div>
+        </div>
       </div>
     </div>
   )
