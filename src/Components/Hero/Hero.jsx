@@ -31,7 +31,7 @@ function Hero() {
               </span>
             </h1>
             <span className='about__text2'>He crafts responsive websites where technologies meet creativity</span>
-            <button className='contact__btn'>Contact me !!</button>
+            <button className='contact__btn'><a href="#contact">Contact me !!</a></button>
           </div>
           <img className='bgimg1' src={bgimg1} alt="" />
           <img className='dots__1' src={dots} alt="" />
@@ -47,7 +47,7 @@ function Hero() {
             </span>
           </div>
         </div>
-        <div className="projects">
+        <div id='projects' className="projects">
           <div className='title__con'>
             <h2 className='projects__title'><span style={{ color: '#C778DD' }}>#</span>Projects</h2>
             <div className="line"></div>
@@ -81,7 +81,7 @@ function Hero() {
           </div>
 
         </div>
-        <div className="about__me">
+        <div id='about' className="about__me">
           <div className="con__about">
             <h2 className='about__title'><span style={{color:'#C778DD'}}>#</span>About me</h2>
             <div className="line__about"></div>
@@ -98,7 +98,7 @@ function Hero() {
           <img className='dots__about__2' src={dots} alt="" />
           </div>
         </div>
-        <div className="contact">
+        <div id='contact' className="contact">
           <div className="title__con">
           <h2 className='contact__title'><span style={{color:'#C778DD'}}>#</span>Contact</h2>
           <div className="line__contact"></div>

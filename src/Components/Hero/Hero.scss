@@ -60,15 +60,37 @@
     align-items: flex-start;
     gap: 10px;
     background-color: transparent;
-    color: white;
     width: 116px;
     margin-top: 24px;
+    text-shadow: 0 0 0.5em currentColor;
+    box-shadow: 0 0 0.5em currentColor ;
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
 }
 
 .person__img {
     margin-left: 30px;
     margin-left: -38px;
     z-index: 1;
+    &:hover{
+        animation-name:animiotin-img ;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        
+
+    }
+}
+@keyframes animiotin-img{
+    0%{
+
+    }
+    100%{
+        
+}
 }
 
 .bgimg1 {
@@ -206,6 +228,8 @@
     display: flex;
     flex-direction: row;
     margin-left: 200px;
+    width: 1064px;
+    justify-content: space-between;
 }
 
 .card2 {
@@ -445,7 +469,6 @@
     line-height: normal;
     margin-top: -28px;
     margin-left: 35px;
-    text-decoration: none;
 }
 
 .text__email {
@@ -459,3 +482,10 @@
     margin-left: 37px;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+
+  }
+  @media (min-width: 769px) {
+    
+  }

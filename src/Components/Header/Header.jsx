@@ -13,9 +13,9 @@ function Header() {
             <h4 className='Logo__text'>Muhammadabdulloh</h4>
           </div>
           <div className="link__con">
-          <Link className='About__link'>#About</Link>
-            <Link className='Contact__link'>#Contact</Link>
-            <Link className='Project__link'>#Projects</Link>
+          <a href='#about' className='About__link'>#About</a>
+            <a href='#contact' className='Contact__link'>#Contact</a>
+            <a href='#projects' className='Project__link'>#Projects</a>
           </div>
 
         </div>
