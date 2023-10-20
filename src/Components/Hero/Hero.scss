@@ -1,491 +1,472 @@
 .container {
-    width: 1366px;
-    background-color: #282C33;
+  width: 1366px;
+  background-color: #282c33;
 }
 
 .First {
-    width: 1024px;
-    height: 423px;
-    flex-shrink: 0;
-    margin-top: 62px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 321px;
+  width: 1024px;
+  height: 423px;
+  flex-shrink: 0;
+  margin-top: 62px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 321px;
 }
 
 .top__part {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .about__text1 {
-    width: 651px;
-    color: white;
-    font-family: Fira Code;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  width: 651px;
+  color: white;
+  font-family: Fira Code;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .name__text1 {
-    padding: 2px;
+  padding: 2px;
 }
 
 .name__text2 {
-    padding: 14px;
+  padding: 14px;
 }
 
 .name__text3 {
-    padding: 14px;
+  padding: 14px;
 }
 
 .name__text4 {
-    padding: 14px;
+  padding: 14px;
 }
 
 .about__text2 {
-    color: var(--gray, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
+  color: var(--gray, #abb2bf);
+  font-family: Fira Code;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
 }
 
 .contact__btn {
-    border: 1px solid var(--primary, #C778DD);
-    display: inline-flex;
-    padding: 8px 16px;
-    align-items: flex-start;
-    gap: 10px;
-    background-color: transparent;
-    width: 116px;
-    margin-top: 24px;
-    text-shadow: 0 0 0.5em currentColor;
-    box-shadow: 0 0 0.5em currentColor ;
-    
-    a{
-        text-decoration: none;
-        color: white;
-    }
+  border: 1px solid var(--primary, #c778dd);
+  display: inline-flex;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: transparent;
+  width: 116px;
+  margin-top: 24px;
+  text-shadow: 0 0 0.5em currentColor;
+  box-shadow: 0 0 0.5em currentColor;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 .person__img {
-    margin-left: 30px;
-    margin-left: -38px;
-    z-index: 1;
-    &:hover{
-        animation-name:animiotin-img ;
-        animation-timing-function: linear;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-        
-
-    }
-}
-@keyframes animiotin-img{
-    0%{
-
-    }
-    100%{
-        
-}
+  margin-left: 30px;
+  margin-left: -38px;
+  z-index: 1;
 }
 
 .bgimg1 {
-    margin-top: -174px;
-    margin-left: -334px
+  margin-top: -174px;
+  margin-left: -334px;
 }
 
 .box__purple {
-    width: 16px;
-    height: 16px;
-    flex-shrink: 0;
-    border: 1px solid var(--primary, #C778DD);
-    background: var(--primary, #C778DD);
-    margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  border: 1px solid var(--primary, #c778dd);
+  background: var(--primary, #c778dd);
+  margin-right: 10px;
 }
 
 .person__text1 {
-    color: var(--gray, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    display: flex;
-    flex-direction: row;
-    border: 1px solid var(--gray, #ABB2BF);
-    background: var(--background, #282C33);
-    padding: 8px;
-    margin-left: -23px;
-    width: 389px;
+  color: var(--gray, #abb2bf);
+  font-family: Fira Code;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid var(--gray, #abb2bf);
+  background: var(--background, #282c33);
+  padding: 8px;
+  margin-left: -23px;
+  width: 389px;
 }
 
 .person__text2 {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .dots__1 {
-    margin-top: 207px;
-    margin-left: -100px;
+  margin-top: 207px;
+  margin-left: -100px;
 }
 
 .projects {
-    width: 1027px;
-    margin-left: 200px;
+  width: 1027px;
+  margin-left: 200px;
 }
 
 .title__con {
-    display: flex;
-    flex-direction: row;
-    margin-left: 203px;
-    width: 900px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 203px;
+  width: 900px;
 }
 
 .line {
-    height: 1px;
-    width: 500px;
-    background-color: var(--primary, #C778DD);
-    margin-top: 54px;
-    margin-left: 68px;
+  height: 1px;
+  width: 500px;
+  background-color: var(--primary, #c778dd);
+  margin-top: 54px;
+  margin-left: 68px;
 }
 
 .projects__title {
-    color: var(--white, #FFF);
-    font-family: Fira Code;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: var(--white, #fff);
+  font-family: Fira Code;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .projects__link {
-    color: var(--white, #FFF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-top: 42px;
-    margin-left: 79px;
-    text-decoration: none;
+  color: var(--white, #fff);
+  font-family: Fira Code;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 42px;
+  margin-left: 79px;
+  text-decoration: none;
 }
 
 .card1 {
-    width: 331px;
+  width: 331px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid var(--gray, #abb2bf);
+
+  img {
+    border-bottom: 1px solid var(--gray, #abb2bf);
+  }
+
+  h4 {
+    color: var(--gray, #abb2bf);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .card__1__text1 {
     display: flex;
-    flex-direction: column;
+    padding-left: 6px;
     align-items: flex-start;
-    border: 1px solid var(--gray, #ABB2BF);
+    align-self: stretch;
+    border-bottom: 1px solid #abb2bf;
+  }
 
-    img {
-        border-bottom: 1px solid var(--gray, #ABB2BF);
-    }
+  h3 {
+    color: var(--white, #fff);
+    font-family: Fira Code;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: stretch;
+    margin-left: 8px;
+  }
 
-    h4 {
-        color: var(--gray, #ABB2BF);
-        font-family: Fira Code;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-
-    .card__1__text1 {
-        display: flex;
-        padding-left: 6px;
-        align-items: flex-start;
-        align-self: stretch;
-        border-bottom: 1px solid #ABB2BF;
-    }
-
-    h3 {
-        color: var(--white, #FFF);
-        font-family: Fira Code;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        align-self: stretch;
-        margin-left: 8px;
-    }
-
-    p {
-        color: var(--gray, #ABB2BF);
-        font-family: Fira Code;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin-top: -16px;
-        margin-left: 8px;
-    }
+  p {
+    color: var(--gray, #abb2bf);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -16px;
+    margin-left: 8px;
+  }
 }
 
 .cards {
-    display: flex;
-    flex-direction: row;
-    margin-left: 200px;
-    width: 1064px;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  width: 1064px;
+  justify-content: space-between;
 }
 
 .card2 {
-    width: 331px;
+  width: 331px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid var(--gray, #abb2bf);
+
+  img {
+    border-bottom: 1px solid var(--gray, #abb2bf);
+  }
+
+  h4 {
+    color: var(--gray, #abb2bf);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .card__1__text2 {
     display: flex;
-    flex-direction: column;
+    padding-left: 6px;
     align-items: flex-start;
-    border: 1px solid var(--gray, #ABB2BF);
+    align-self: stretch;
+    border-bottom: 1px solid #abb2bf;
+  }
 
-    img {
-        border-bottom: 1px solid var(--gray, #ABB2BF);
-    }
+  h3 {
+    color: var(--white, #fff);
+    font-family: Fira Code;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: stretch;
+    margin-left: 8px;
+  }
 
-    h4 {
-        color: var(--gray, #ABB2BF);
-        font-family: Fira Code;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-
-    .card__1__text2 {
-        display: flex;
-        padding-left: 6px;
-        align-items: flex-start;
-        align-self: stretch;
-        border-bottom: 1px solid #ABB2BF;
-    }
-
-    h3 {
-        color: var(--white, #FFF);
-        font-family: Fira Code;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        align-self: stretch;
-        margin-left: 8px;
-    }
-
-    p {
-        color: var(--gray, #ABB2BF);
-        font-family: Fira Code;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin-top: -16px;
-        margin-left: 8px;
-    }
+  p {
+    color: var(--gray, #abb2bf);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -16px;
+    margin-left: 8px;
+  }
 }
 
 .card3 {
-    width: 331px;
+  width: 331px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid var(--gray, #abb2bf);
+
+  img {
+    border-bottom: 1px solid var(--gray, #abb2bf);
+  }
+
+  h4 {
+    color: var(--gray, #abb2bf);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .card__1__text3 {
     display: flex;
-    flex-direction: column;
+    padding-left: 6px;
     align-items: flex-start;
-    border: 1px solid var(--gray, #ABB2BF);
+    align-self: stretch;
+    border-bottom: 1px solid #abb2bf;
+  }
 
-    img {
-        border-bottom: 1px solid var(--gray, #ABB2BF);
-    }
+  h3 {
+    color: var(--white, #fff);
+    font-family: Fira Code;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: stretch;
+    margin-left: 8px;
+  }
 
-    h4 {
-        color: var(--gray, #ABB2BF);
-        font-family: Fira Code;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-
-    .card__1__text3 {
-        display: flex;
-        padding-left: 6px;
-        align-items: flex-start;
-        align-self: stretch;
-        border-bottom: 1px solid #ABB2BF;
-    }
-
-    h3 {
-        color: var(--white, #FFF);
-        font-family: Fira Code;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        align-self: stretch;
-        margin-left: 8px;
-    }
-
-    p {
-        color: var(--gray, #ABB2BF);
-        font-family: Fira Code;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin-top: -16px;
-        margin-left: 8px;
-    }
+  p {
+    color: var(--gray, #abb2bf);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -16px;
+    margin-left: 8px;
+  }
 }
 
 .about__me {
-    margin-top: 140px;
-    margin-left: 400px;
-    width: 1025px;
+  margin-top: 140px;
+  margin-left: 400px;
+  width: 1025px;
 }
 
 .con__about {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .line__about {
-    background-color: #C778DD;
-    width: 800px;
-    height: 1px;
-    margin-top: 49px;
-    margin-left: 16px;
+  background-color: #c778dd;
+  width: 800px;
+  height: 1px;
+  margin-top: 49px;
+  margin-left: 16px;
 }
 
 .about__title {
-    color: var(--white, #FFF);
-    font-family: Fira Code;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: var(--white, #fff);
+  font-family: Fira Code;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .about__text {
-    color: var(--gray, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    width: 515px;
+  color: var(--gray, #abb2bf);
+  font-family: Fira Code;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 515px;
 }
 
 .right__img {
-    margin-left: 631px;
-    margin-top: -275px;
+  margin-left: 631px;
+  margin-top: -275px;
 }
 
 .dots__about__2 {
-    margin-left: 312px;
+  margin-left: 312px;
 }
 
 .dots__about__1 {
-    margin-left: 636px;
+  margin-left: 636px;
 }
 
 .line__person2 {
-    width: 271px;
-    height: 1px;
-    flex-shrink: 0;
-    background-color: #C778DD;
-    margin-left: 49px;
+  width: 271px;
+  height: 1px;
+  flex-shrink: 0;
+  background-color: #c778dd;
+  margin-left: 49px;
 }
 
 .discord__con {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .email__con {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .messege__title {
-    color: var(--white, #FFF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  color: var(--white, #fff);
+  font-family: Fira Code;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .messege {
-    display: inline-flex;
-    padding: 16px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    border: 1px solid var(--gray, #ABB2BF);
-    margin-left: 218px;
-    width: 206px;
-    height: 201px;
-    margin-top: 197px;
-
+  display: inline-flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border: 1px solid var(--gray, #abb2bf);
+  margin-left: 218px;
+  width: 206px;
+  height: 201px;
+  margin-top: 197px;
 }
 
 .contact {
-    width: 1023px;
-    margin-left: 200px;
+  width: 1023px;
+  margin-left: 200px;
 }
 
 .line__contact {
-    height: 1px;
-    width: 803px;
-    background-color: #C778DD;
-    margin-top: 48px;
-    margin-left: 10px;
+  height: 1px;
+  width: 803px;
+  background-color: #c778dd;
+  margin-top: 48px;
+  margin-left: 10px;
 }
 
 .contact__title {
-    color: var(--white, #FFF);
-    font-family: Fira Code;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: var(--white, #fff);
+  font-family: Fira Code;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .contact__text {
-    width: 505px;
-    color: var(--gray, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-top: 153px;
-    margin-left: -855px;
+  width: 505px;
+  color: var(--gray, #abb2bf);
+  font-family: Fira Code;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 153px;
+  margin-left: -855px;
 }
 
 .text__discord {
-    color: var(--gray, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: -28px;
-    margin-left: 35px;
+  color: var(--gray, #abb2bf);
+  font-family: Fira Code;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -28px;
+  margin-left: 35px;
 }
 
 .text__email {
-    color: var(--gray, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: -31px;
-    margin-left: 37px;
-    text-decoration: none;
+  color: var(--gray, #abb2bf);
+  font-family: Fira Code;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -31px;
+  margin-left: 37px;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
-
-  }
-  @media (min-width: 769px) {
-    
-  }
+}
+@media (min-width: 769px) {
+}

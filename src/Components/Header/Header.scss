@@ -1,11 +1,17 @@
 .Header {
+    background-color:  #282C33 !important;
+    
     width: 100%;
-    padding: 32px 0px 8px 0px;
+    // padding: 32px 0px 8px 0px;
     display: flex;
     justify-content: space-between;
-    background: var(--background, #282C33);
+   z-index: 99;
     margin: 0 auto;
+    position: fixed;
+    transition: 900ms all ease;
+    
 }
+
 
 .Logo {
     width: 70px;
@@ -39,6 +45,7 @@
     font-weight: 400;
     line-height: normal;
 }
+
 
 .Contact__link {
     color: var(--gray, #ABB2BF);
@@ -85,3 +92,15 @@
 }
 
 
+.sticky{
+    background-color:  #282C33 !important;
+    // max-width:100%;
+    // padding-top: 28px;
+     display: flex;
+     justify-content: space-between !important;
+    // padding-top: 28px;
+    // margin: 0 auto;
+    // padding-right: 83px !important;
+    transition: 900ms all ease;
+    
+}
