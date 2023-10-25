@@ -19,15 +19,15 @@ function Footer() {
         <div className="media">
           <h4 className='media__text'>Media</h4>
           <div className="media__logo">
-            <Link to={'https://github.com/'}>          
+            <a target='blank' href='https://github.com/'>   
             <img src={github} alt="" />
-            </Link>
-            <Link to={'https://www.figma.com/'}>
+            </a>
+            <a target='blank' href='https://www.figma.com/'>
             <img src={figma} alt="" />
-            </Link>
-            <Link to={'https://discord.com/'}>            
+            </a>
+            <a target='blank' href='https://discord.com/'>            
             <img src={discord} alt="" />
-            </Link>
+            </a>
 
           </div>
         </div>

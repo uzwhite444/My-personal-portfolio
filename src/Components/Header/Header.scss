@@ -1,14 +1,14 @@
-.Header {
+.Header1 {
     background-color:  #282C33 !important;
-    
     width: 100%;
-    // padding: 32px 0px 8px 0px;
+    padding: 32px 0px 8px 0px;
     display: flex;
     justify-content: space-between;
-   z-index: 99;
+    z-index: 99;
     margin: 0 auto;
     position: fixed;
     transition: 900ms all ease;
+    margin-top: -10px;
     
 }
 
@@ -37,24 +37,7 @@
     margin-top: 9px;
 }
 
-.Project__link {
-    color: var(--gray, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
 
-
-.Contact__link {
-    color: var(--gray, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
 .About__link {
     color: var(--gray, #ABB2BF);
     font-family: Fira Code;
@@ -64,7 +47,18 @@
     line-height: normal;
     margin-left: 1034px;
     padding: 25px;
+    text-decoration: none;
+    &:hover{
+        color: white;
+        transition: all 0.3s ;
+        -webkit-transition: all 0.3s ;
+        -moz-transition: all 0.3s ;
+        -ms-transition: all 0.3s ;
+        -o-transition: all 0.3s ;
+        text-shadow: 0 0 0.5em currentColor;
 }
+}
+
 
 .Contact__link{
     color: var(--gray, #ABB2BF);
@@ -74,6 +68,16 @@
     font-weight: 400;
     line-height: normal;
     padding: 25px;
+    text-decoration: none;
+    &:hover{
+        color: white;
+        transition: all 0.3s ;
+        -webkit-transition: all 0.3s ;
+        -moz-transition: all 0.3s ;
+        -ms-transition: all 0.3s ;
+        -o-transition: all 0.3s ;
+        text-shadow: 0 0 0.5em currentColor;
+}
 }
 
 .Project__link{
@@ -84,6 +88,16 @@
     font-weight: 400;
     line-height: normal;
     padding: 25px;
+    text-decoration: none;
+    &:hover{
+        color: white;
+        transition: all 0.3s ;
+        -webkit-transition: all 0.3s ;
+        -moz-transition: all 0.3s ;
+        -ms-transition: all 0.3s ;
+        -o-transition: all 0.3s ;
+        text-shadow: 0 0 0.5em currentColor;
+}
 }
 
 .link__con{
@@ -104,3 +118,42 @@
     transition: 900ms all ease;
     
 }
+
+@media (max-width: 1819px) {
+    .logo__container{
+        width: 100px;
+        height: 100px;
+    }
+    .About__link{
+        margin-left: 500px;
+    }
+  }
+
+  @media (max-width:974px){
+    .Logo{
+        width: 40px;
+        height: 40px;
+    }
+    .Logo__text{
+        font-size: 20px;
+    }
+    .About__link{
+        margin-left: 10px;
+    }
+    .Header1{
+        width: 100%;
+    }
+  }
+
+  @media (max-width:643px){
+    .Logo{
+        width: 20px;
+        height: 20px;
+        margin-top: 20px;
+    }
+    .Logo__text{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+  }
+

@@ -23,7 +23,7 @@ function Header() {
   return (
     <div className='Header'>
       <div className="container">
-        <div className="Header ">
+        <div className="Header1 ">
           <div className="logo__container">
             <img className='Logo' src={Logo} alt="" />
             <h4 className='Logo__text'>Muhammadabdulloh</h4>
