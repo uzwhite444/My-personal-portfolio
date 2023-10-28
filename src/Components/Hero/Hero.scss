@@ -28,22 +28,27 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  text-shadow: 0 0 0.4em currentColor;
 }
 
 .name__text1 {
   padding: 2px;
+  text-shadow: 0 0 0.4em currentColor;
 }
 
 .name__text2 {
   padding: 14px;
+  text-shadow: 0 0 0.4em currentColor;
 }
 
 .name__text3 {
   padding: 14px;
+  // text-shadow: 0 0 0.4em currentColor;
 }
 
 .name__text4 {
   padding: 14px;
+  text-shadow: 0 0 0.6em currentColor;
 }
 
 .about__text {
@@ -54,6 +59,8 @@
   font-weight: 400;
   line-height: 26px;
   width: 418px;
+  text-shadow: 0 0 0.8em currentColor;
+
 }
 
 .about__text2 {
@@ -63,6 +70,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
+  text-shadow: 0 0 0.8em currentColor;
 }
 
 .contact__btn {
@@ -74,9 +82,11 @@
   background-color: transparent;
   width: 116px;
   margin-top: 24px;
-  text-shadow: 0 0 0.5em currentColor;
-  box-shadow: 0 0 0.5em currentColor;
-
+  &:hover{
+    text-shadow: 0 0 0.5em currentColor;
+    box-shadow: 0 0 0.5em currentColor;
+    color: #c778dd;
+  }
   a {
     text-decoration: none;
     color: white;
@@ -102,6 +112,7 @@
   border: 1px solid var(--primary, #c778dd);
   background: var(--primary, #c778dd);
   margin-right: 10px;
+  box-shadow: 0 0 1em #c778dd;
 }
 
 .person__text1 {
@@ -118,10 +129,16 @@
   padding: 8px;
   margin-left: -23px;
   width: 389px;
+  &:hover{
+    box-shadow: 0 0 0.4em currentColor;
+  }
 }
 
 .person__text2 {
   padding-left: 10px;
+  &:hover{
+    text-shadow: 0 0 0.4em white;
+  }
 }
 
 .dots__1 {
@@ -130,7 +147,7 @@
 }
 
 .projects {
-  width: 1027px;
+  width: 1000px;
   margin-left: 200px;
 }
 
@@ -147,6 +164,7 @@
   background-color: var(--primary, #c778dd);
   margin-top: 54px;
   margin-left: 68px;
+  box-shadow: 0 0 0.7em #c778dd;
 }
 
 .projects__title {
@@ -156,6 +174,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  text-shadow: 0 0 0.5em currentColor;
 }
 
 .projects__link {
@@ -176,7 +195,10 @@
   flex-direction: column;
   align-items: flex-start;
   border: 1px solid var(--gray, #abb2bf);
-
+  &:hover{
+    box-shadow: 0 0 0.8em #df9143;
+    text-shadow: 0 0 0.2em #ffffff;
+  }
   img {
     border-bottom: 1px solid var(--gray, #abb2bf);
   }
@@ -235,7 +257,10 @@
   flex-direction: column;
   align-items: flex-start;
   border: 1px solid var(--gray, #abb2bf);
-
+  &:hover{
+    box-shadow: 0 0 0.8em #47955d;
+    text-shadow: 0 0 0.2em #ffffff;
+  }
   img {
     border-bottom: 1px solid var(--gray, #abb2bf);
   }
@@ -286,7 +311,10 @@
   flex-direction: column;
   align-items: flex-start;
   border: 1px solid var(--gray, #abb2bf);
-
+  &:hover{
+    box-shadow: 0 0 0.8em #8e5bdb;
+    text-shadow: 0 0 0.2em #ffffff;
+  }
   img {
     border-bottom: 1px solid var(--gray, #abb2bf);
   }
@@ -348,6 +376,7 @@
   height: 1px;
   margin-top: 49px;
   margin-left: 16px;
+  box-shadow: 0 0 1em #8e5bdb;
 }
 
 .about__title {
@@ -357,6 +386,9 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  &:hover{
+    text-shadow: 0 0 0.5em #8e5bdb;
+  }
 }
 
 .right__img {
@@ -378,6 +410,7 @@
   flex-shrink: 0;
   background-color: #c778dd;
   margin-left: 49px;
+  box-shadow: 0 0 3em #c778dd;
 }
 
 .discord__con {
@@ -397,6 +430,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  text-shadow: 0 0 0.4em white;
 }
 
 .messege {
@@ -410,11 +444,15 @@
   width: 206px;
   height: 201px;
   margin-top: 197px;
+  &:hover{
+    text-shadow: 0 0 0.5em currentColor;
+  }
 }
 
 .contact {
   width: 1023px;
   margin-left: 200px;
+  text-shadow: 0 0 0.4em currentColor;
 }
 
 .line__contact {
@@ -423,6 +461,7 @@
   background-color: #c778dd;
   margin-top: 48px;
   margin-left: 10px;
+  box-shadow: 0 0 2em #c778dd;
 }
 
 .contact__title {
@@ -432,6 +471,9 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  &:hover{
+    text-shadow: 0 0 0.4em currentColor;
+  }
 }
 
 .contact__text {
@@ -444,6 +486,9 @@
   line-height: normal;
   margin-top: 153px;
   margin-left: -855px;
+  &:hover{
+    text-shadow: 0 0 0.4em currentColor;
+  }
 }
 
 .text__discord {
@@ -621,7 +666,7 @@
 }
 @media (max-width:1494px){
   .title__con{
-    width: 1000px;
+    width: 700px;
     .line{
       width: 300px;
     }
@@ -650,7 +695,7 @@
 }
 @media (max-width:1187px){
   .title__con{
-    width: 960px;
+    width: 400px;
     .line{
       width: 250px;
     }
@@ -808,14 +853,207 @@
         font-size: 10px;
       }
       h3{
-        font-size: 15px;
+        font-size: 10px;
+        margin-bottom: 18px;
       }
       p{
         font-size: 10px;
       }
       img{
-        width: 140px;
+        width: 90px;
       }
     }
+    .card2{
+      width: 90px;
+      height: 218px;
+      h4{
+        font-size: 10px;
+      }
+      h3{
+        font-size: 10px;
+        margin-bottom: 18px;
+      }
+      p{
+        font-size: 10px;
+      }
+      img{
+        width: 90px;
+      }
+    }
+    .card3{
+      width: 90px;
+      height: 218px;
+      h4{
+        font-size: 10px;
+      }
+      h3{
+        font-size: 10px;
+        margin-bottom: 18px;
+      }
+      p{
+        font-size: 10px;
+      }
+      img{
+        width: 90px;
+      }
+    }
+  }
+}
+
+@media (max-width:1206px){
+  .title__con{
+    width: 700px;
+  }
+  .projects{
+    width: 500px;
+  }
+}
+
+@media (max-width:1111px){
+  .title__con{
+    width: 600px;
+  }
+  .projects{
+    width: 300px;
+  }
+}
+
+@media (max-width:1011px){
+  .title__con{
+    width: 500px;
+  }
+  .projects{
+    width: 200px;
+  }
+}
+
+@media (max-width:911px){
+  .title__con{
+    width: 400px;
+  }
+  .projects{
+    width: 100px;
+  }
+}
+
+@media (max-width:811px){
+  .title__con{
+    width: 300px;
+  }
+  .projects{
+    width: 50px;
+  }
+}
+
+@media (max-width:711px){
+  .title__con{
+    margin-left: 18px;
+  }
+  .cards{
+    margin-left: -60px;
+  }
+}
+
+@media (max-width:548px){
+  .cards{
+    width: 288px;
+  }
+  .title__con{
+    width: 200px;
+    margin-left: -48px;
+    .projects__link{
+      font-size: 9px;
+      width: 50px;
+      margin-left: 20px;
+    }
+    .line{
+      display: none;
+    }
+  }
+}
+
+@media (max-width:437px){
+  .title__con{
+    width: 200px;
+    margin-left: -140px;
+    .line{
+      display: none;
+    }
+    .projects__link{
+      width: 50px;
+    }
+  }
+  .cards{
+    margin-left: -190px;
+  }
+}
+
+@media (max-width:1436px){
+  .about__me{
+    width: 700px;
+  }
+  .dots__about__2{
+    margin-left: 27px;
+    margin-top: 20px;
+  }
+  .con__about{
+    width: 700px;
+    .about__title{
+      font-size: 25px;
+      width: 200px;
+    }
+  }
+  .dots__about__1{
+    margin-left: 326px;
+  }
+  .right__img{
+    margin-left: 375px;
+    .person__right2{
+      width: 200px;
+      margin-left: 20px;
+    }
+  }
+
+}
+
+@media (max-width:1109px){
+  .about__me{
+    width: 400px;
+  }
+  .about__text{
+    font-size: 14px;
+  }
+  .about__title{
+    width: 323px;
+    font-size: 20px;
+  }
+  .con__about{
+    width: 500px;
+  }
+  .line__about{
+    width: 260px;
+  }
+  .dots__about__1{
+    width: 50px;
+    height: 50px;
+  }
+  .dots__about__2{
+    width: 50px;
+    height: 50px;
+  }
+  .person__right2{
+    width: 100px;
+    height: 260px;
+    margin-top: 56px;
+  }
+  .line__person2{
+    width: 155px;
+  }
+}
+
+@media (max-width:1002px){
+  .about__text{
+    width: 288px;
+    font-size: 10px;
   }
 }

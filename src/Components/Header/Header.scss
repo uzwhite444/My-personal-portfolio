@@ -17,11 +17,23 @@
     height: 70px;
     border-radius: 50%;
     margin-left: 10px;
+    text-decoration: none;
+    &:hover{
+        box-shadow: 0 0 1em white;
+    }
 }
 
 .logo__container {
     display: flex;
     flex-direction: row;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    &:hover{
+        text-shadow: 0 0 0.3em currentColor;
+    }
 }
 
 .Logo__text {
@@ -34,6 +46,7 @@
     font-weight: 700;
     line-height: normal;
     margin-top: 9px;
+    text-decoration: none;
 }
 
 
@@ -44,9 +57,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 100px;
+    margin-left: 900px;
     padding: 25px;
     text-decoration: none;
+    
     &:hover{
         color: white;
         transition: all 0.3s ;
@@ -55,7 +69,7 @@
         -ms-transition: all 0.3s ;
         -o-transition: all 0.3s ;
         text-shadow: 0 0 0.5em currentColor;
-}
+    }
 }
 
 
@@ -101,21 +115,13 @@
 
 .link__con{
     margin-top: 20px;
-    
 }
 
 
 .sticky{
     background-color:  #282C33 !important;
-    // max-width:100%;
-    // padding-top: 28px;
      display: flex;
      justify-content: space-between !important;
-    // padding-top: 28px;
-    // margin: 0 auto;
-    // padding-right: 83px !important;
-    transition: 900ms all ease;
-    
 }
 
 @media (max-width: 1819px) {
@@ -147,8 +153,8 @@
     display: none;
 }
 .dropdown-toggle{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     background-color: transparent !important;
     border: none;
     margin-top: -20px;
@@ -157,20 +163,40 @@
         display: none !important;
     }
     i{
-        font-size: 50px;
+        font-size: 25px;
     }
-  
 }
-.dropdown-menu{
+
+.btn__group{
+    margin-top: 26px;
+    margin-left: -83px;
+}
+
+.dropdown-menu {
     background-color: black !important;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-left: 100px !important;
     opacity: 0.5;
     position: absolute;
     inset: 0px 0px auto auto;
     margin: 0px;
-    transform: translate(-14px, 47px);
+    transform: translate(-53px, 75px);
+}
+.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -1.125em;
+    -webkit-font-smoothing: antialiased;
+    margin-left: -50px;
+    /* width: 20px; */
+    margin-top: 20px;
+    -moz-osx-font-smoothing: grayscale;
 }
   @media (max-width:643px){
     .Logo{

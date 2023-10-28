@@ -11,8 +11,8 @@ function Footer() {
     <div className='footer'>
       <div className="container">
         <div className="con__logo">
-          <img className='footer__logo' src={logo} alt="" />
-          <h5 className='logo__text'>Muhammadabdulloh</h5>
+         <a href="#top__part"> <img className='footer__logo' src={logo} alt="" /></a>
+          <a href="#top__part"><h5 className='logo__text'>Muhammadabdulloh</h5></a>
           <a href='https://mail.google.com/mail/u/0/#inbox' target='blank' className='email__text__logo'>nuuuu391@gmail.com</a>
         </div>
         <p className='text__2'>Web designer and front-end developer</p>

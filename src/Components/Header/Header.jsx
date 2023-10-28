@@ -25,8 +25,8 @@ function Header() {
       <div className="container">
         <div className="Header1 ">
           <div className="logo__container">
-            <img className='Logo' src={Logo} alt="" />
-            <h4 className='Logo__text'>Muhammadabdulloh</h4>
+            <a href="#top__part"><img className='Logo' src={Logo} alt="" /></a>
+            <a href="#top__part"><h4 className='Logo__text'>Muhammadabdulloh</h4></a>
           </div>
           <div className={vWidth <= 520 ? 'none ':'link__con'}>
           <a href='#about' className='About__link'>#About</a>
