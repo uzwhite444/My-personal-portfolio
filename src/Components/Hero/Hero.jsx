@@ -38,7 +38,7 @@ function Hero() {
   return (
     <div className="Hero">
       <div className="container">
-        {/* <div id="top__part" className="top__part">
+        <div id="top__part" className="top__part">
           <motion.div initial="hidden" whileInView="visible" viewport={{ amount:0.2}}  className="First">
             <motion.h1 custom={1} variants={textAnimation} className="about__text1">
               <span className="name__text1" style={{ color: "white" }}>
@@ -79,8 +79,8 @@ function Hero() {
               </span>
             </motion.span>
           </motion.div>
-        </div> */}
-        {/* <div id="projects" className="projects">
+        </div>
+        <div id="projects" className="projects">
           <motion.div initial="hidden" whileInView="visible"   className="title__con">
             <motion.h2 custom={1} variants={textAnimation} className="projects__title">
               <span style={{ color: "#C778DD" }}>#</span>Projects
@@ -120,7 +120,7 @@ function Hero() {
               <motion.p custom={3} variants={textAnimation}>Get answers to your kahoot quiz</motion.p>
             </motion.div>
           </motion.div>
-        </div> */}
+        </div>
         <motion.div initial='hidden' whileInView="visible" id="about" className="about__me">
           <div className="con__about">
             <motion.h2 custom={1} variants={textAnimation} className="about__title">
@@ -140,7 +140,7 @@ function Hero() {
             <motion.img custom={3} variants={ImgAnimation} className="dots__about__2" src={dots} alt="" />
           </div>
         </motion.div>
-        {/* <motion.div initial='hidden' whileInView='visible' id="contact" className="contact">
+        <motion.div initial='hidden' whileInView='visible' id="contact" className="contact">
           <div className="title__con">
             <motion.h2 custom={1} variants={textAnimation} className="contact__title">
               <span style={{ color: "#C778DD" }}>#</span>Contact
@@ -166,7 +166,7 @@ function Hero() {
               </div>
             </div>
           </div>
-        </motion.div> */}
+        </motion.div>
       </div>
     </div>
   );

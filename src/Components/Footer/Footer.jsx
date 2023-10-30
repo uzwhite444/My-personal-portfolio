@@ -9,13 +9,15 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div className='footer'>
-      <div className="container">
-        <div className="con__logo">
+      <div className="container footer__inner">
+       <div>
+       <div className="con__logo">
          <a href="#top__part"> <img className='footer__logo' src={logo} alt="" /></a>
           <a href="#top__part"><h5 className='logo__text'>Muhammadabdulloh</h5></a>
           <a href='https://mail.google.com/mail/u/0/#inbox' target='blank' className='email__text__logo'>nuuuu391@gmail.com</a>
         </div>
         <p className='text__2'>Web designer and front-end developer</p>
+       </div>
         <div className="media">
           <h4 className='media__text'>Media</h4>
           <div className="media__logo">

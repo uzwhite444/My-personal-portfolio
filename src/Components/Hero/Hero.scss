@@ -1,6 +1,9 @@
+.none{
+  display: none;
+}
 .container {
-  width: 100%;
-  background-color: #282c33;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .First {
@@ -10,12 +13,10 @@
   margin-top: 62px;
   display: flex;
   flex-direction: column;
-  margin-left: 321px;
   margin-top: 160px;
 }
 
 .top__part {
-  width: 1024px;
   display: flex;
   flex-direction: row;
 }
@@ -80,7 +81,7 @@
   align-items: flex-start;
   gap: 10px;
   background-color: transparent;
-  width: 116px;
+  width: 131px;
   margin-top: 24px;
   &:hover{
     text-shadow: 0 0 0.5em currentColor;
@@ -95,7 +96,7 @@
 
 .person__img {
   margin-left: 30px;
-  margin-left: -38px;
+  margin-left: -98px;
   z-index: 1;
   margin-top: 150px;
 }
@@ -127,15 +128,15 @@
   border: 1px solid var(--gray, #abb2bf);
   background: var(--background, #282c33);
   padding: 8px;
-  margin-left: -23px;
-  width: 389px;
+  margin-left: -50px;
+  width: 437px;
   &:hover{
     box-shadow: 0 0 0.4em currentColor;
   }
 }
 
 .person__text2 {
-  padding-left: 10px;
+  padding-left: 40px;
   &:hover{
     text-shadow: 0 0 0.4em white;
   }
@@ -147,14 +148,12 @@
 }
 
 .projects {
-  width: 1000px;
-  margin-left: 200px;
+  margin-top: 50px;
 }
 
 .title__con {
   display: flex;
   flex-direction: row;
-  margin-left: 203px;
   width: 900px;
 }
 
@@ -162,7 +161,7 @@
   height: 1px;
   width: 500px;
   background-color: var(--primary, #c778dd);
-  margin-top: 54px;
+  margin-top: 22px;
   margin-left: 68px;
   box-shadow: 0 0 0.7em #c778dd;
 }
@@ -184,7 +183,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-top: 42px;
+  margin-top: 22px;
   margin-left: 79px;
   text-decoration: none;
 }
@@ -229,6 +228,7 @@
     line-height: normal;
     align-self: stretch;
     margin-left: 8px;
+    margin-top: 20px;
   }
 
   p {
@@ -246,13 +246,12 @@
 .cards {
   display: flex;
   flex-direction: row;
-  margin-left: 200px;
-  width: 1064px;
   justify-content: space-between;
 }
 
 .card2 {
-  width: 331px;
+  width: 334px;
+  height: 370px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -291,6 +290,7 @@
     line-height: normal;
     align-self: stretch;
     margin-left: 8px;
+    margin-top: 20px;
   }
 
   p {
@@ -306,7 +306,7 @@
 }
 
 .card3 {
-  width: 331px;
+  width: 334px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -317,6 +317,7 @@
   }
   img {
     border-bottom: 1px solid var(--gray, #abb2bf);
+    width: 331px;
   }
 
   h4 {
@@ -345,6 +346,7 @@
     line-height: normal;
     align-self: stretch;
     margin-left: 8px;
+    margin-top: 20px;
   }
 
   p {
@@ -361,8 +363,6 @@
 
 .about__me {
   margin-top: 140px;
-  margin-left: 400px;
-  width: 1025px;
 }
 
 .con__about {
@@ -441,7 +441,7 @@
   gap: 16px;
   border: 1px solid var(--gray, #abb2bf);
   margin-left: 218px;
-  width: 206px;
+  width: 243px;
   height: 201px;
   margin-top: 197px;
   &:hover{
@@ -450,8 +450,6 @@
 }
 
 .contact {
-  width: 1023px;
-  margin-left: 200px;
   text-shadow: 0 0 0.4em currentColor;
 }
 
@@ -485,7 +483,7 @@
   font-weight: 500;
   line-height: normal;
   margin-top: 153px;
-  margin-left: -855px;
+  margin-left: -817px;
   &:hover{
     text-shadow: 0 0 0.4em currentColor;
   }
@@ -518,6 +516,33 @@
   margin-right: 5px;
 }
 
+@media (max-width:710px){
+  .messege{
+    margin-left: 63px;
+    width: 179px;
+    height: 159px;
+    margin-top: 81px;
+    p{
+      font-size: 12px;
+      margin-top: -21px;
+      margin-left: 24px;
+    }
+    img{
+      width: 20px;
+    }
+  }
+  .contact__text{
+    margin-left: -374px;
+    margin-top: 89px;  }
+    .contact__title{
+      margin-left: -124px;
+      height: 0px;
+    }
+    .line__contact{
+      margin-top: 10px;
+    }
+}
+
 @media (max-width: 1595px) {
   .First {
     width: 988px;
@@ -531,10 +556,10 @@
   }
   .person__img{
     width: 457px;
-    height: 386px;
+    height: 340px;
   }
   .person__text1{
-    width: 404px;
+    width: 328px;
     font-size: 20px;
   }
   .bgimg1{
@@ -622,7 +647,8 @@
 
 @media (max-width:960px){
   .First{
-    width: 588px;
+    width: 400px;
+    
     .about__text1{
       font-size: 10px;
       width: 260px;
@@ -638,22 +664,27 @@
   .person__img{
     width: 137px;
     height: 100px;
+    display: none;
   }
   .person__text1{
     width: 120px;
     font-size: 8px;
+    margin-left: -98px;
+    display: none;
   }
   .bgimg1{
     width: 50px;
     height: 50px;
     margin-left: -342px;
     margin-top: 167px;
+    display: none;
   }
   .dots__1{
     width: 50px;
     height: 30px;
     margin-left: -40px;
     margin-top: 218px;
+    display: none;
   }
   .person__text2{
     padding-left: 0px;
@@ -672,7 +703,7 @@
     }
   }
   .cards{
-    width: 760px;
+    width: 660px;
     .card1{
       width: 233px;
       img{
@@ -702,7 +733,6 @@
   }
   .cards{
     width: 590px;
-    margin-left: 243px;
     .card1{
       width: 183px;
       height: 258px;
@@ -771,7 +801,6 @@
   }
   .cards{
     width: 470px;
-    margin-left: 203px;
     display: flex;
     justify-content: space-between;
     .card1{
@@ -843,7 +872,6 @@
   }
   .cards{
     width: 400px;
-    margin-left: 103px;
     display: flex;
     justify-content: space-between;
     .card1{
@@ -947,10 +975,10 @@
 
 @media (max-width:711px){
   .title__con{
-    margin-left: 18px;
+    margin-left: 120px;
   }
   .cards{
-    margin-left: -60px;
+    margin-left: 60px;
   }
 }
 
@@ -960,7 +988,6 @@
   }
   .title__con{
     width: 200px;
-    margin-left: -48px;
     .projects__link{
       font-size: 9px;
       width: 50px;
@@ -975,16 +1002,12 @@
 @media (max-width:437px){
   .title__con{
     width: 200px;
-    margin-left: -140px;
     .line{
       display: none;
     }
     .projects__link{
       width: 50px;
     }
-  }
-  .cards{
-    margin-left: -190px;
   }
 }
 
@@ -1031,7 +1054,7 @@
     width: 500px;
   }
   .line__about{
-    width: 260px;
+    display: none;
   }
   .dots__about__1{
     width: 50px;
@@ -1045,15 +1068,50 @@
     width: 100px;
     height: 260px;
     margin-top: 56px;
+    margin-left:-83px;
   }
   .line__person2{
     width: 155px;
   }
 }
 
-@media (max-width:1002px){
+@media (max-width:1004px){
   .about__text{
     width: 288px;
     font-size: 10px;
+  }
+  .dots__about__1{
+    margin-left: 233px;
+  }
+  .right__img{
+    .person__right2{
+      margin-left: -120px;
+    }
+    .line__person2{
+      margin-left: -92px;
+    }
+  }
+  .con__about{
+    width: 200px;
+    .about__title{
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width:485px){
+  .about__me{
+    width: 400px;
+    height: 400px;
+  }
+  .person__right2{
+    display: none;
+  }
+  .line__person2{
+    display: none;
+  }
+  .dots__about__2{
+    margin-top: 74px;
+    margin-left: -93px;
   }
 }
